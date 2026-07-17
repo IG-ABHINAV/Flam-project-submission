@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: queuectl-dashboard
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: pnpm install --frozen-lockfile
+    startCommand: node src/dashboard.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
