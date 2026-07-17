@@ -21,3 +21,8 @@ Thumbs.db
 # Assignment brief and local recordings
 *.pdf
 demo-output/
+
+# Local runner scripts
+run.bat
+run.js
+
