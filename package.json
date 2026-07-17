@@ -6,7 +6,7 @@
   "type": "module",
   "bin": { "queuectl": "./bin/queuectl.js" },
   "scripts": {
-    "start": "node bin/queuectl.js",
+    "start": "node src/dashboard.js",
     "dashboard": "node src/dashboard.js",
     "test": "node --test",
     "demo": "node scripts/demo.js",
