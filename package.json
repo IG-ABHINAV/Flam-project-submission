@@ -1,0 +1,21 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Durable CLI background job queue with workers, retries and DLQ.",
+  "type": "module",
+  "bin": { "queuectl": "./bin/queuectl.js" },
+  "scripts": {
+    "start": "node bin/queuectl.js",
+    "dashboard": "node src/dashboard.js",
+    "test": "node --test",
+    "demo": "node scripts/demo.js",
+    "runner": "node run.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "commander": "^12.1.0",
+    "express": "^4.21.2"
+  },
+  "engines": { "node": ">=20" }
+}

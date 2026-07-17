@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+coverage/
+dist/
+
+# QueueCTL local runtime data
+.queuectl/
+*.sqlite
+*.sqlite-journal
+*.log
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Assignment brief and local recordings
+*.pdf
+demo-output/
